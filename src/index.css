@@ -1,0 +1,141 @@
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: auto;
+    margin-left: 50px;
+    color: white;
+}
+
+header h1:hover {
+    color: magenta;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 2rem;
+}
+
+a {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+    border-bottom: solid magenta 1px;
+}
+
+header {
+    background: black;
+}
+
+button {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: purple;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+
+    padding: 10px;
+
+}
+
+form {
+    width: 20%;
+}
+
+input {
+    display: flex;
+    margin: 10px 0;
+    width: 600px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    position: inherit;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-right: 20px;
+}
+
+nav li {
+    cursor: pointer;
+    margin: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.navActive {
+    color: cyan;
+    border-bottom: solid cyan;
+}
