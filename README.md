@@ -1,6 +1,6 @@
 # Module-20-Challenge
 React: React Portfolio
-[Website][https://jessicaiortega.github.io/My-Portfolio/]
+[Website](https://jessicaiortega.github.io/My-Portfolio/)
 
   ## Table of Contents
   - [Description](#Description)
